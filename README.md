@@ -16,3 +16,9 @@ The following informations can be collected:
     - CPU statistics (Seconds spent in context switches, interrupts, soft interrupts, syscalls)
 
 - #### More to come...
+
+### InfluxDB:
+
+    Sysprobe is currently developped with InfluxDB v1.4.3
+
+### Main dependencies:
