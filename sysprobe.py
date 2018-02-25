@@ -175,7 +175,7 @@ def get_influxdb_client(influxdb_config):
 
 
 def influxdb_write_points(client, record):
-    """
+    """Write points to InfluxDB
 
     :param client: A InfluxDB client object
     :param record:  A dictionary of the InfluxDB record to write
