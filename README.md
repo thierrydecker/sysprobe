@@ -19,6 +19,6 @@ The following informations can be collected:
 
 ### InfluxDB:
 
-    Sysprobe is currently developped with InfluxDB v1.4.3
+Sysprobe is currently developped with InfluxDB v1.4.3
 
 ### Main dependencies:
