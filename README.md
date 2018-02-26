@@ -29,10 +29,11 @@
 
 ### Main dependencies
 
+
+    PyYAML v3.12
+    
+    schedule v0.5.0
+
     psutil v5.4.3
 
     influxdb v5.0.0
-
-    schedule v0.5.0
-
-    PyYAML v3.12
