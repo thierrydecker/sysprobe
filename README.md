@@ -8,12 +8,16 @@
 
 ### Trackable counters
 
-    Number of CPUs
-    CPU Frequencies (Including all CPUs in one value)
-    CPU Frequencies (Per CPU)
-    CPU usage percent (Including all CPUs)
-    CPU usage percent (Per CPU)
-    CPU statistics (Seconds spent in context switches, interrupts, soft interrupts, syscalls)
+    CPU times (user, system, idle)
+    CPU times per CPU (user, system, idle)
+    CPU percent (usage percent)
+    CPU percent per CPU (usage percent)
+    CPU times percent (user, system, idle)
+    CPU times percent per CPU (user, system, idle
+    CPU count (number of CPUs)
+    CPU statistics (ctx_switches, interrupts, soft_interrupts, syscalls)
+    CPU frequencies (current, min, max)
+    CPU frequencies per CPU (current, min, max)
 
     More to come...
 
