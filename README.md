@@ -34,4 +34,4 @@
     
 ### Code of conduct
 
-    [Code of confuct](CODE_OF_CONDUCT.md)
+    [Code of conduct](./CODE_OF_CONDUCT.md)
