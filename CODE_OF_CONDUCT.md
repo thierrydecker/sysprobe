@@ -1,7 +1,7 @@
 # Code of Conduct
 
 
-##1. Purpose
+#1. Purpose
 
 A primary goal of **SysProbe's project** is to be inclusive to the largest number of contributors, with the most varied
 and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment
