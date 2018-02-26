@@ -3,29 +3,7 @@ import psutil
 import helpers
 
 
-def get_available_jobs():
-    """Returns the availables jobs
-
-    Creates a mapping of jobs names to functions to call to perform the jobs
-
-    :return: A dictionary of the available jobs
-    """
-    available_jobs = {
-        'cpu_times': job_cpu_times,
-        'cpu_times_percpu': job_cpu_times_percpu,
-        'cpu_percent': job_cpu_percent,
-        'cpu_percent_percpu': job_cpu_percent_percpu,
-        'cpu_times_percent': job_cpu_times_percent,
-        'cpu_times_percent_percpu': job_cpu_times_percent_percpu,
-        'cpu_count': job_cpu_count,
-        'cpu_stats': job_cpu_stats,
-        'cpu_freq': job_cpu_freq,
-        'cpu_freq_percpu': job_cpu_freq_percpu,
-    }
-    return available_jobs
-
-
-def job_cpu_times(influxdb_config):
+def cpu_times(influxdb_config):
     """Retrieve the cpu times
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -54,7 +32,7 @@ def job_cpu_times(influxdb_config):
     helpers.influxdb_write_points(client, record)
 
 
-def job_cpu_times_percpu(influxdb_config):
+def cpu_times_percpu(influxdb_config):
     """Retrieve the cpu times per cpu
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -85,7 +63,7 @@ def job_cpu_times_percpu(influxdb_config):
     helpers.influxdb_write_points(client, records)
 
 
-def job_cpu_percent(influxdb_config):
+def cpu_percent(influxdb_config):
     """Retrieve the cpu usage in percent
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -107,7 +85,7 @@ def job_cpu_percent(influxdb_config):
     helpers.influxdb_write_points(client, record)
 
 
-def job_cpu_percent_percpu(influxdb_config):
+def cpu_percent_percpu(influxdb_config):
     """Retrieve the cpu usage of each cpu in percent
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -132,7 +110,7 @@ def job_cpu_percent_percpu(influxdb_config):
     helpers.influxdb_write_points(client, records)
 
 
-def job_cpu_times_percent(influxdb_config):
+def cpu_times_percent(influxdb_config):
     """Retrieve the cpu times percent
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -156,7 +134,7 @@ def job_cpu_times_percent(influxdb_config):
     helpers.influxdb_write_points(client, record)
 
 
-def job_cpu_times_percent_percpu(influxdb_config):
+def cpu_times_percent_percpu(influxdb_config):
     """Retrieve the cpu times percent per cpu
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -183,7 +161,7 @@ def job_cpu_times_percent_percpu(influxdb_config):
     helpers.influxdb_write_points(client, records)
 
 
-def job_cpu_count(influxdb_config):
+def cpu_count(influxdb_config):
     """Retrieve the number of cpu
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -205,7 +183,7 @@ def job_cpu_count(influxdb_config):
     helpers.influxdb_write_points(client, record)
 
 
-def job_cpu_stats(influxdb_config):
+def cpu_stats(influxdb_config):
     """Retrieve the cpu statistics
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -230,7 +208,7 @@ def job_cpu_stats(influxdb_config):
     helpers.influxdb_write_points(client, record)
 
 
-def job_cpu_freq(influxdb_config):
+def cpu_freq(influxdb_config):
     """Retrieve the cpu frequency
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
@@ -254,7 +232,7 @@ def job_cpu_freq(influxdb_config):
     helpers.influxdb_write_points(client, record)
 
 
-def job_cpu_freq_percpu(influxdb_config):
+def cpu_freq_percpu(influxdb_config):
     """Retrieve the frequency of each cpu
 
     :param influxdb_config: A dictionary of InfluxDB to connect to

@@ -13,6 +13,7 @@ from influxdb import InfluxDBClient
 from influxdb.exceptions import InfluxDBClientError
 from influxdb.exceptions import InfluxDBServerError
 
+import jobs
 
 def parser_create():
     """Creates the arguments parser
@@ -199,3 +200,25 @@ def influxdb_write_points(client, record):
         logger.warning("Connection timeout writing {}".format(record))
     else:
         logger.debug("Wrote {}".format(record))
+
+
+def get_available_jobs():
+    """Returns the availables jobs
+
+    Creates a mapping of jobs names to functions to call to perform the jobs
+
+    :return: A dictionary of the available jobs
+    """
+    available_jobs = {
+        'cpu_times': jobs.cpu_times,
+        'cpu_times_percpu': jobs.cpu_times_percpu,
+        'cpu_percent': jobs.cpu_percent,
+        'cpu_percent_percpu': jobs.cpu_percent_percpu,
+        'cpu_times_percent': jobs.cpu_times_percent,
+        'cpu_times_percent_percpu': jobs.cpu_times_percent_percpu,
+        'cpu_count': jobs.cpu_count,
+        'cpu_stats': jobs.cpu_stats,
+        'cpu_freq': jobs.cpu_freq,
+        'cpu_freq_percpu': jobs.cpu_freq_percpu,
+    }
+    return available_jobs
