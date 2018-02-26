@@ -1,7 +1,7 @@
 # Code of Conduct
 
 
-#1. Purpose
+## 1. Purpose
 
 A primary goal of **SysProbe's project** is to be inclusive to the largest number of contributors, with the most varied
 and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment
@@ -14,7 +14,7 @@ consequences for unacceptable behavior.
 We invite all those who participate in **SysProbe's project** to help us create safe and positive experiences for
 everyone.
 
-##2. Open Source Citizenship
+## 2. Open Source Citizenship
 
 A supplemental goal of this Code of Conduct is to increase open source citizenship by encouraging participants to
 recognize and strengthen the relationships between our actions and their effects on our community.
@@ -25,7 +25,7 @@ inequality and abuses of power that exist in society.
 If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all
 participants to contribute to the fullest extent, we want to know.
 
-##3. Expected Behavior
+## 3. Expected Behavior
 
 The following behaviors are expected and requested of all community members:
 
@@ -38,7 +38,7 @@ situation, someone in distress, or violations of this Code of Conduct, even if t
 - Remember that community event venues may be shared with members of the public; please be respectful to all patrons
 of these locations.
 
-##4. Unacceptable Behavior
+## 4. Unacceptable Behavior
 
 The following behaviors are considered harassment and are unacceptable within our community:
 
@@ -54,7 +54,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 - Advocating for, or encouraging, any of the above behavior.
 - Sustained disruption of community events, including talks and presentations.
 
-##5. Weapons Policy
+## 5. Weapons Policy
 
 No weapons will be allowed at **SysProbe's project** events, community spaces, or in other spaces covered by the scope
 of this Code of Conduct. Weapons include but are not limited to guns, explosives (including fireworks), and large
@@ -63,7 +63,7 @@ harm to others. Anyone seen in possession of one of these items will be asked to
 allowed to return without the weapon. Community members are further expected to comply with all state and local laws
 on this matter.
 
-##6. Consequences of Unacceptable Behavior
+## 6. Consequences of Unacceptable Behavior
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not
 be tolerated.
@@ -74,7 +74,7 @@ If a community member engages in unacceptable behavior, the community organizers
 appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without
 refund in the case of a paid event).
 
-##7. Reporting Guidelines
+## 7. Reporting Guidelines
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer
 as soon as possible. mail@thierry-decker.com.
@@ -85,7 +85,7 @@ Additionally, community organizers are available to help community members engag
 otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will
 also provide escorts as desired by the person experiencing distress.
 
-##8. Addressing Grievances
+## 8. Addressing Grievances
 
 If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify
 GOVERNING_BODY with a concise description of your grievance. Your grievance will be handled in accordance with our
@@ -95,7 +95,7 @@ existing governing policies. [LINK_TO_POLICY]
 members. It is strongly recommended that you mention those policies here or in Section 7 and that you include a
 mechanism for addressing grievances.]
 
-##9. Scope
+## 9. Scope
 
 We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this
 Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications pertaining to
@@ -105,7 +105,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 community activities when such behavior has the potential to adversely affect the safety and well-being of community
 members.
 
-##10. Contact info
+## 10. Contact info
 
 mail@thierry-decker.com
 
