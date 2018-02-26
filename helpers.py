@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 import argparse
 import logging
 import logging.config
@@ -14,6 +17,7 @@ from influxdb.exceptions import InfluxDBClientError
 from influxdb.exceptions import InfluxDBServerError
 
 import jobs
+
 
 def parser_create():
     """Creates the arguments parser
