@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 import platform
 import psutil
 import helpers
