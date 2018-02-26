@@ -24,12 +24,14 @@
 ### Tested on
 
     Python v3.6
-    
 
 ### Main dependencies
-
 
     PyYAML v3.12
     schedule v0.5.0
     psutil v5.4.3
     influxdb v5.0.0
+    
+### Code of conduct
+
+    [Code of confuct](CODE_OF_CONDUCT.md)
