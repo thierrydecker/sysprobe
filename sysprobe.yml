@@ -17,23 +17,23 @@ influxdb: {
   retries: 3,
   use_udp: False,
   udp_port: 4444,
-  proxies: {}
+  proxies: {},
 }
 
 #
 # Jobs configration: Names, Interval (secs)
 #
 jobs: {
-  #cpu_count: 5,
-  #cpu_freq: 5,
-  #cpu_freq_percpu: 5,
-  #cpu_percent: 5,
-  #cpu_percent_percpu: 5,
-  #cpu_stats: 5,
-  #cpu_times: 5,
-  #cpu_times_percpu: 5,
+  cpu_count: 5,
+  cpu_freq: 5,
+  cpu_freq_percpu: 5,
+  cpu_percent: 5,
+  cpu_percent_percpu: 5,
+  cpu_stats: 5,
+  cpu_times: 5,
+  cpu_times_percpu: 5,
   cpu_times_percent: 5,
-  #cpu_times_percent_percpu: 5,
+  cpu_times_percent_percpu: 5,
 }
 
 
@@ -44,7 +44,7 @@ loggers:
   #
   # Version
   #
-  version: 1
+  version: 1,
   #
   # Logging formatters configuration
   #
@@ -53,13 +53,13 @@ loggers:
     # Brief formatter
     #
     brief: {
-      format: '%(message)s'
+      format: '%(message)s',
     }
     #
     # Verbose formatter
     #
     verbose: {
-      format: '%(asctime)s %(name)-5s %(levelname)-8s %(message)s'
+      format: '%(asctime)s %(name)-5s %(levelname)-8s %(message)s',
     }
   #
   # Logging handlers configuration
@@ -71,7 +71,7 @@ loggers:
     console: {
       class: logging.StreamHandler,
       formatter: verbose,
-      level: DEBUG
+      level: DEBUG,
     }
     #
     # Roatating file handler
@@ -82,7 +82,7 @@ loggers:
       filename: sysprobe_rotating_file.log,
       maxBytes: 10000,
       backupCount: 3,
-      level: DEBUG
+      level: DEBUG,
     }
     #
     # File handler
@@ -91,7 +91,7 @@ loggers:
       class: logging.FileHandler,
       formatter: verbose,
       filename: sysprobe_file.log,
-      level: DEBUG
+      level: DEBUG,
     }
   #
   # Logging loggers configuration
