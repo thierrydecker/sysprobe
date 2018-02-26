@@ -1,24 +1,38 @@
-### SysProbe:
+## SysProbe
 
-A Python system probe
+    A Python system probe
 
-SysProbe collects system informations and logs them to a InfluxDB database.
+### Introduction
 
-The following informations can be collected:
+    SysProbe collects system informations and logs them to a InfluxDB database.
 
-- #### CPUs counters
+### Trackable counters
 
-    - Number of CPUs
-    - CPU Frequencies (Including all CPUs in one value)
-    - CPU Frequencies (Per CPU) 
-    - CPU usage percent (Including all CPUs)
-    - CPU usage percent (Per CPU)
-    - CPU statistics (Seconds spent in context switches, interrupts, soft interrupts, syscalls)
+    Number of CPUs
 
-- #### More to come...
+    CPU Frequencies (Including all CPUs in one value)
 
-### InfluxDB:
+    CPU Frequencies (Per CPU)
+ 
+    CPU usage percent (Including all CPUs)
 
-Sysprobe is currently developped with InfluxDB v1.4.3
+    CPU usage percent (Per CPU)
 
-### Main dependencies:
+    CPU statistics (Seconds spent in context switches, interrupts, soft interrupts, syscalls)
+
+    More to come...
+
+### Tested on
+
+    Python v3.6
+    
+
+### Main dependencies
+
+    psutil v5.4.3
+
+    influxdb v5.0.0
+
+    schedule v0.5.0
+
+    PyYAML v3.12
