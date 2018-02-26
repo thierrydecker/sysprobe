@@ -1,6 +1,6 @@
 ## SysProbe
 
-    A Python system probe
+    A Python system monitor agent
 
 ### Introduction
 
