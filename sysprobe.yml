@@ -9,7 +9,7 @@ influxdb: {
   host: 192.168.1.34,
   port: 8086,
   username: admin,
-  password: zvxmhwfn,
+  password: admin,
   database: system_monitor,
   ssl: False,
   verify_ssl: False,
