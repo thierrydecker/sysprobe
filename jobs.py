@@ -23,9 +23,9 @@ def cpu_times(influxdb_config):
                 "host_type": host_type,
             },
             "fields": {
-                "ctx_switches": result.user,
-                "interrupts": result.system,
-                "soft_interrupts": result.idle,
+                "user": result.user,
+                "system": result.system,
+                "idle": result.idle,
             }
         }
     ]
@@ -55,9 +55,10 @@ def cpu_times_percpu(influxdb_config):
                         "cpu_num": cpu_num,
                     },
                     "fields": {
-                        "ctx_switches": result.user,
-                        "interrupts": result.system,
-                        "soft_interrupts": result.idle, }
+                        "user": result.user,
+                        "system": result.system,
+                        "idle": result.idle,
+                    }
                 }
         )
     helpers.influxdb_write_points(client, records)
