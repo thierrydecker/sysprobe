@@ -35,3 +35,7 @@ More to come...
 ### Code of conduct
 
 Checkout our [Code of conduct](CODE_OF_CONDUCT.md).
+
+### SysProbe's Wiki
+
+Checkout our [Wiki](https://github.com/thierrydecker/sysprobe/wiki).
