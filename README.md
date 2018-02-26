@@ -21,9 +21,11 @@ SysProbe collects system informations and logs them to a InfluxDB database.
 
 More to come...
 
-### Tested on
+### Developped on
 
+- Windows 10
 - Python v3.6
+- InfluxDB v1.4
 
 ### Main dependencies
 
