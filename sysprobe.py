@@ -8,7 +8,6 @@ import logging.config
 import schedule
 
 import helpers
-import jobs
 
 
 def main():
@@ -24,7 +23,7 @@ def main():
     helpers.loggers_configure(loggers_config)
     logger = logging.getLogger()
 
-    available_jobs = jobs.get_available_jobs()
+    available_jobs = helpers.get_available_jobs()
     for job, interval in jobs_config.items():
         if job in available_jobs:
             job = available_jobs[job]
