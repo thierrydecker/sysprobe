@@ -24,13 +24,13 @@ influxdb: {
 # Jobs configration: Names, Interval (secs)
 #
 jobs: {
+  cpu_times: 5,
   cpu_count: 5,
   cpu_freq: 5,
   cpu_freq_percpu: 5,
   cpu_percent: 5,
   cpu_percent_percpu: 5,
   cpu_stats: 5,
-  cpu_times: 5,
   cpu_times_percpu: 5,
   cpu_times_percent: 5,
   cpu_times_percent_percpu: 5,
@@ -44,7 +44,7 @@ loggers:
   #
   # Version
   #
-  version: 1,
+  version: 1
   #
   # Logging formatters configuration
   #
@@ -71,7 +71,7 @@ loggers:
     console: {
       class: logging.StreamHandler,
       formatter: verbose,
-      level: DEBUG,
+      level: INFO,
     }
     #
     # Roatating file handler
