@@ -69,3 +69,25 @@ greater community - just follow along.
 
 - Python projects usually follow the **PEP-8** guidelines (though many have minor deviations depending on the lead
 maintainers’ preferences.)
+
+### Documentation isn't optional
+
+It’s not! Patches without documentation will be returned to sender. By “documentation” we mean:
+
+- Docstrings (for Python; or API-doc-friendly comments for other languages) must be created or updated for public
+API functions/methods/etc. (This step is optional for some bugfixes.)
+
+- New features should ideally include updates to prose documentation, including useful example code snippets.
+
+- All submissions should have a changelog entry crediting the contributor and/or any individuals instrumental in
+identifying the problem.
+
+### Tests aren’t optional
+
+Any bugfix that doesn’t include a test proving the existence of the bug being fixed, may be suspect. Ditto for new
+features that can’t prove they actually work.
+
+We’ve found that test-first development really helps make features better architected and identifies potential edge
+cases earlier instead of later. Writing tests before the implementation is strongly
+
+ 
