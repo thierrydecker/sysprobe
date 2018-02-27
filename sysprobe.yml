@@ -71,7 +71,7 @@ loggers:
     console: {
       class: logging.StreamHandler,
       formatter: verbose,
-      level: INFO,
+      level: DEBUG,
     }
     #
     # Roatating file handler
