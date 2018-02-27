@@ -21,7 +21,8 @@ from influxdb.exceptions import InfluxDBServerError
 #
 # Project's imports
 #
-import jobs
+import jobscpu
+import jobsnetwork
 
 
 def parser_create():
@@ -219,17 +220,17 @@ def get_available_jobs():
     :return: A dictionary of the available jobs
     """
     available_jobs = {
-        'cpu_times': jobs.cpu_times,
-        'cpu_times_percpu': jobs.cpu_times_percpu,
-        'cpu_percent': jobs.cpu_percent,
-        'cpu_percent_percpu': jobs.cpu_percent_percpu,
-        'cpu_times_percent': jobs.cpu_times_percent,
-        'cpu_times_percent_percpu': jobs.cpu_times_percent_percpu,
-        'cpu_count': jobs.cpu_count,
-        'cpu_stats': jobs.cpu_stats,
-        'cpu_freq': jobs.cpu_freq,
-        'cpu_freq_percpu': jobs.cpu_freq_percpu,
-        'network_io_counters': jobs.network_io_counters,
-        'network_io_counters_pernic': jobs.network_io_counters_pernic,
+        'cpu_times': jobscpu.cpu_times,
+        'cpu_times_percpu': jobscpu.cpu_times_percpu,
+        'cpu_percent': jobscpu.cpu_percent,
+        'cpu_percent_percpu': jobscpu.cpu_percent_percpu,
+        'cpu_times_percent': jobscpu.cpu_times_percent,
+        'cpu_times_percent_percpu': jobscpu.cpu_times_percent_percpu,
+        'cpu_count': jobscpu.cpu_count,
+        'cpu_stats': jobscpu.cpu_stats,
+        'cpu_freq': jobscpu.cpu_freq,
+        'cpu_freq_percpu': jobscpu.cpu_freq_percpu,
+        'network_io_counters': jobsnetwork.network_io_counters,
+        'network_io_counters_pernic': jobsnetwork.network_io_counters_pernic,
     }
     return available_jobs
