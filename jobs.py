@@ -324,7 +324,7 @@ def network_io_counters(influxdb_config):
 
 
 def network_io_counters_pernic(influxdb_config):
-    """Retrieve the network io counters per nic card
+    """Retrieve the network io counters per NIC
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
     :return: None
