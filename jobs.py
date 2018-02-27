@@ -1,8 +1,16 @@
 # -*- coding: utf-8 -*-
 
-
+#
+# Standard library imports
+#
 import platform
+#
+# Third party imports
+#
 import psutil
+#
+# Project's imports
+#
 import helpers
 
 
