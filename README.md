@@ -19,6 +19,7 @@ SysProbe collects system informations and logs them to a InfluxDB database.
 - Windows 10
 - Python v3.6
 - InfluxDB v1.4
+- Grafana v4.6.3
 
 ### Main dependencies
 
