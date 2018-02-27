@@ -14,8 +14,6 @@ import psutil
 import helpers
 
 
-
-
 def network_io_counters(influxdb_config):
     """Retrieve the network io counters
 
