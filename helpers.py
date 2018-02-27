@@ -1,21 +1,26 @@
 # -*- coding: utf-8 -*-
 
-
+#
+# Standard library imports
+#
 import argparse
 import logging
 import logging.config
 import sys
 import threading
-
+#
+# Third party imports
+#
 import yaml
 import yaml.parser
 import psutil
 import requests.exceptions
-
 from influxdb import InfluxDBClient
 from influxdb.exceptions import InfluxDBClientError
 from influxdb.exceptions import InfluxDBServerError
-
+#
+# Project's imports
+#
 import jobs
 
 
