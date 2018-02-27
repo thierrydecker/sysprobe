@@ -34,6 +34,7 @@ jobs: {
   cpu_times_percpu: 1,
   cpu_times_percent: 1,
   cpu_times_percent_percpu: 1,
+  network_io_counters: 1,
 }
 
 
