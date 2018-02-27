@@ -1,12 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+#
+# Standard library imports
+#
 import logging
 import logging.config
-
+#
+# Third party imports
+#
 import schedule
-
+#
+# Project's imports
+#
 import helpers
 
 
