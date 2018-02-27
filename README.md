@@ -44,4 +44,4 @@ Checkout our [Wiki](https://github.com/thierrydecker/sysprobe/wiki).
 
 ### Contributing to the project
 
-Checkout our [Contributing section](CONTRIBUTING)
+Checkout our [Contributing section](CONTRIBUTING.md)
