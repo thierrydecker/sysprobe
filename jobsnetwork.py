@@ -43,7 +43,6 @@ def network_io_counters(influxdb_config):
                 "drops_in": result.dropin,
                 "drops_out": result.dropout,
                 "drops_total": result.dropin + result.dropout,
-
             }
         }
     ]
