@@ -24,16 +24,16 @@ influxdb: {
 # Jobs configration: Names, Interval (secs)
 #
 jobs: {
-  cpu_times: 5,
-  cpu_count: 5,
-  cpu_freq: 5,
-  cpu_freq_percpu: 5,
-  cpu_percent: 5,
-  cpu_percent_percpu: 5,
-  cpu_stats: 5,
-  cpu_times_percpu: 5,
-  cpu_times_percent: 5,
-  cpu_times_percent_percpu: 5,
+  cpu_times: 1,
+  cpu_count: 1,
+  cpu_freq: 1,
+  cpu_freq_percpu: 1,
+  cpu_percent: 1,
+  cpu_percent_percpu: 1,
+  cpu_stats: 1,
+  cpu_times_percpu: 1,
+  cpu_times_percent: 1,
+  cpu_times_percent_percpu: 1,
 }
 
 
