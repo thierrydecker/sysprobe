@@ -230,5 +230,6 @@ def get_available_jobs():
         'cpu_freq': jobs.cpu_freq,
         'cpu_freq_percpu': jobs.cpu_freq_percpu,
         'network_io_counters': jobs.network_io_counters,
+        'network_io_counters_pernic': jobs.network_io_counters_pernic,
     }
     return available_jobs
