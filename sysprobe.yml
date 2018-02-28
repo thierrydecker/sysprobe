@@ -36,7 +36,7 @@ jobs: {
   #cpu_times_percent_percpu: 1,
   #network_io_counters: 1,
   #network_io_counters_pernic: 1,
-  memory_virtual_memory, 1,
+  memory_virtual_memory: 1,
 }
 
 

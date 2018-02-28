@@ -233,6 +233,6 @@ def get_available_jobs():
         'cpu_freq_percpu': jobscpu.cpu_freq_percpu,
         'network_io_counters': jobsnetwork.network_io_counters,
         'network_io_counters_pernic': jobsnetwork.network_io_counters_pernic,
-        'virtual_memory': jobsmemory.memory_virtual_memory,
+        'memory_virtual_memory': jobsmemory.memory_virtual_memory,
     }
     return available_jobs
