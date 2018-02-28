@@ -14,7 +14,7 @@ import psutil
 import helpers
 
 
-def virtual_memory(influxdb_config):
+def memory_virtual_memory(influxdb_config):
     """Retrieve the system memory usage
 
     :param influxdb_config: A dictionary of InfluxDB to connect to
