@@ -34,6 +34,8 @@ def memory_virtual_memory(influxdb_config):
                 "host_name": platform.node(),
             },
             "fields": {
+                "total": result.total,
+                "available": result.available,
                 "used": result.used,
                 "free": result.free,
             }
