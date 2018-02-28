@@ -23,6 +23,7 @@ from influxdb.exceptions import InfluxDBServerError
 #
 import jobscpu
 import jobsnetwork
+import jobsmemory
 
 
 def parser_create():
@@ -232,5 +233,6 @@ def get_available_jobs():
         'cpu_freq_percpu': jobscpu.cpu_freq_percpu,
         'network_io_counters': jobsnetwork.network_io_counters,
         'network_io_counters_pernic': jobsnetwork.network_io_counters_pernic,
+        'virtual_memory': jobsmemory.virtual_memory,
     }
     return available_jobs
